@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Spider-Man", "categoria": "Marvel", "poder": "Trepar paredes" },
+  { "id": 2, "nombre": "Batman", "categoria": "DC", "poder": "Inteligencia" },
+  { "id": 3, "nombre": "Iron Man", "categoria": "Marvel", "poder": "Armadura" },
+  { "id": 4, "nombre": "Wonder Woman", "categoria": "DC", "poder": "Superfuerza" },
+  { "id": 5, "nombre": "Thor", "categoria": "Marvel", "poder": "Rayo" },
+  { "id": 6, "nombre": "Superman", "categoria": "DC", "poder": "Volar" }
+]

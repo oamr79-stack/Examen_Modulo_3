@@ -182,3 +182,70 @@
     border-right-color: var(--border);
   }
 }
+/* src/App.css */
+.app-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  color: var(--color-dark);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Buscador estilizado */
+.buscador-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  border: 2px solid var(--color-gray);
+  border-radius: 30px;
+  outline: none;
+  color: var(--color-dark);
+  background-color: var(--color-white);
+  transition: border-color 0.2s;
+}
+
+.buscador-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+/* Cuadrícula de 3 columnas requerida */
+.heroes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Mensaje sin resultados */
+.no-resultados {
+  text-align: center;
+  padding: 40px;
+  background-color: var(--color-white);
+  border-radius: 12px;
+  border: 1px dashed var(--color-gray);
+  color: var(--color-gray);
+  font-size: 1.2rem;
+}
+
+/* Responsive básico para que no se rompa en pantallas pequeñas */
+@media (max-width: 768px) {
+  .heroes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .heroes-grid {
+    grid-template-columns: 1fr;
+  }
+}
