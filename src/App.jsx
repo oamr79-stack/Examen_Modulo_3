@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Súper Héroes</h1> <br />
+        <h1>Superhéroes</h1> <br />
 
         
         <input
