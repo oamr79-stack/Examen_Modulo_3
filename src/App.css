@@ -200,7 +200,7 @@
   margin-bottom: 20px;
 }
 
-/* Buscador estilizado */
+
 .buscador-input {
   width: 100%;
   max-width: 600px;
@@ -219,14 +219,14 @@
   box-shadow: 0 0 0 3px var(--color-primary-light);
 }
 
-/* Cuadrícula de 3 columnas requerida */
+
 .heroes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-/* Mensaje sin resultados */
+
 .no-resultados {
   text-align: center;
   padding: 40px;
@@ -237,7 +237,7 @@
   font-size: 1.2rem;
 }
 
-/* Responsive básico para que no se rompa en pantallas pequeñas */
+
 @media (max-width: 768px) {
   .heroes-grid {
     grid-template-columns: repeat(2, 1fr);
