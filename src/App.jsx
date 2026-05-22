@@ -3,8 +3,8 @@ import HeroeCard from './complements/HeroeCard';
 import './App.css';
 
 function App() {
-  const [heroes, setHeroes] = useState([]);
-  const [busqueda, setBusqueda] = useState('');
+  const [heroes, setHeroes] = useState([]); // los datos que vienen del fetch
+  const [busqueda, setBusqueda] = useState(''); // lo que escribe el usuario
   const [favoritos, setFavoritos] = useState([]);
 
   useEffect(() => {
